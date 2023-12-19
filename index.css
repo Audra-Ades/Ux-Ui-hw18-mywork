@@ -1,0 +1,152 @@
+.body{
+    background-color: 
+    #fff8e0;
+    display:flex;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+
+.name{
+    font-family: Old London Alternate;
+    color:black;
+    font-size:50px;
+    text-align: center;
+}
+
+ul{
+    font-family:old london alternate;
+    font-size: 30px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color:black;
+    margin: 50px;
+  
+}
+
+ ul a:hover{
+    color:red;
+    cursor: pointer;
+ } 
+ 
+ .styled {
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    color: black;
+    font-family: old london alternate;
+    border-radius: 10px;
+    background-color: #fff8e0;
+    font-size: 25px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+   
+  }
+  
+  
+  .styled:hover {
+    color: rgba(255, 0, 0, 1);
+    border-color: red;
+    cursor: pointer;
+  }
+
+ .foot{
+    font-family:old london alternate;
+    font-size: 30px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color:black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+footer a:hover{
+    color:red;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+ }
+ .socials{
+display: flex;
+text-align: center;
+align-items: center;
+}
+
+.myskills{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 100px;
+    font-family: Impact; 
+   
+
+}
+.skill1{
+    font-size: 30px;
+   display: flex;
+   align-items: center;
+    align-self: center;
+    align-content: center;
+    font-family: Old London alternate;
+    margin:auto;
+}
+
+ 
+
+.skillp{
+    font-size: 20px;
+    display: flex;
+    align-content: center;
+    font-family: Din condensed;
+    width:90%;
+    margin:20px;
+}
+
+
+
+
+.skillp2{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-family: Din condensed;
+    width:90%; 
+    padding: 30px; 
+    
+
+}
+
+
+.skillblurb{
+    display:flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: Old london alternate; 
+    
+}
+
+
+#stair2{
+    align-items: center;
+}
+.styled2 {
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    color: black;
+    font-family: old london alternate;
+    border-radius: 10px;
+    background-color: #fff8e0;
+    font-size: 25px;
+    flex-wrap: wrap-reverse;
+   
+  }
+  
+  
+  .styled2:hover {
+    color: rgba(255, 0, 0, 1);
+    border-color: red;
+    cursor: pointer;
+  }
