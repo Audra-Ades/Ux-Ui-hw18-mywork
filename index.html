@@ -7,17 +7,49 @@
 <body style="background-color:#fff8e0; border:black solid 5px;"
 >
 <h1 class="name">
-   <div style="text-align: center;" >
-  <img width= 80%; 
-  src="images/v1.png">
+  <div style="text-align: center;" >
+ <img width= 80%; 
+ src="images/newsheading.gif">
 </h1>
 
-<ul>
-    <a >About</a>
-    <a >Skills</a>
-    <a >Work</a>
-    <a >Contact</a>
-  </ul>
+<ul >
+   <a class="link" style="color:#dd5444;" href="https://audra-ades.github.io/Ux-Ui-Hw17/">About</a>
+   <a class="link" href="https://audra-ades.github.io/Ux-Ui-Hw18/">Skills</a>
+   <a class="link" href="https://audra-ades.github.io/Ux-Ui-hw18-mywork/" >Work</a>
+   <a class="popup" onclick="myFunction()"> Contact
+     <span class="popuptext" id="myPopup">
+       <div id="sample">
+       Email: Audraades@gmail.com
+     </div>
+     <br />
+      
+     <button class="copy" onclick="copyText()">Copy</button>
+     <br />
+      
+      
+     <script>
+         function copyText() {
+      
+           
+             navigator.clipboard.writeText
+                 ("Audraades@gmail.com");
+         }
+     </script>
+     
+    
+     </span> 
+     
+   </a>
+ </ul>
+
+
+ <script>
+   // When the user clicks on <div>, open the popup
+   function myFunction() {
+     var popup = document.getElementById("myPopup");
+     popup.classList.toggle("show");
+   }
+   </script>
 
   <section style="text-align:center; border: black solid 5px; margin: 100px;">
     <h1 class="myskills">The Scoop!!</h1>
@@ -61,27 +93,28 @@
   </div>
 </section>
   </body>
-  
   <footer>
-  
+    
     <ul class="foot">
-      
       <a >About</a>
-      <a >Skills</a>
-      <a >Work</a>
-      <a >Contact</a>
-    </ul>
+      <a class="link" href="https://audra-ades.github.io/Ux-Ui-Hw18/">Skills</a>
+      <a  style="color:#dd5444;" >Work</a>
+        
+      </a>
+  </ul>
+
+
+  <div class="socials" style="border: black solid 5px; height: 100px; margin:50Px"><img class="red" src="./images/red.PNG">
+    <a class="link" href="https://www.instagram.com/audgeepaudgee/"> <img width= 15%; 
+      src="images/insta.png"></a>
+    <a class="link" href="https://www.linkedin.com/in/audra-ades-418436282/"> <img width= 15%; 
+        src="images/linked.png"></a>
+     <a href="mailto:audraades@gmail.com"> <img width= 15%; 
+          src="images/mail.png"></a>
+     <img class="red2" src="./images/red2.PNG">  
+</footer>
   
-  
-    <div class="socials" style="border: black solid 5px; height: 100px; margin: 50px;">
-      <a> <img width= 10%; 
-        src="images/insta.png"></a>
-      <a> <img width= 10%; 
-          src="images/linked.png"></a>
-       <a> <img width= 10%; 
-            src="images/mail.png"></a>
-    </div>
-  </footer>
+
   
   </html>
   
