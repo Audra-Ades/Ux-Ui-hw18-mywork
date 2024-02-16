@@ -31,16 +31,16 @@ ul{
  } 
  
  .styled {
+    display: block;
     line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
+    padding-left: 40px;
+    padding-right: 40px;
     color: black;
     font-family: old london alternate;
     border-radius: 10px;
     background-color: #fff8e0;
-    font-size: 25px;
-    justify-content: space-around;
-    margin-bottom: 30px;
+    font-size: 20px;
+    white-space: nowrap;
    
   }
   
@@ -242,14 +242,15 @@ align-items: center;
  }
  .row{
     display: flex;
-    bottom: 50px;
-   padding-inline: 15px;
+    bottom: 10px;
+   padding-inline: 30px;
    align-items: center;
    justify-content: center;
-   padding-bottom: 30px;
+   padding-bottom: 10px;
   position: relative;
-   top: 30px;
-   bottom: 10px;
+   top: 10px;
+   
+   
  }
  .point1{
     padding-top: 35px;
@@ -274,4 +275,9 @@ footer a:hover{
 display: flex;
 text-align: center;
 align-items: center;
+}
+
+.link{
+    text-decoration: none;
+   color: black;
 }
