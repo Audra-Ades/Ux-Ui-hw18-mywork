@@ -48,6 +48,7 @@ ul{
   .styled:hover {
     color: #dd5444;
     cursor: pointer;
+    white-space: nowrap;
   }
 
  .foot{
