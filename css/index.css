@@ -46,8 +46,7 @@ ul{
   
   
   .styled:hover {
-    color: rgba(255, 0, 0, 1);
-    border-color: red;
+    color: #dd5444;
     cursor: pointer;
   }
 
