@@ -78,7 +78,7 @@ align-items: center;
     display:flex;
     justify-content: center;
     font-size: 150px;
-    font-family: nikeflix outline; 
+    font-family: 'KG LET HER GO OUTLINE';
     color: #dd5444;
     z-index: 6;
    margin: 0;
@@ -286,4 +286,8 @@ align-items: center;
 @font-face {
   font-family: 'Old London Alternate';
   src: url('https://www.fontsaddict.com/fontface/old-london-alternate.ttf');
+}
+@font-face {
+  font-family: 'KG LET HER GO OUTLINE';
+  src: url('https://www.fontsaddict.com/fontface/kg-let-her-go-outline.ttf');
 }
