@@ -15,7 +15,7 @@
 }
 
 ul{
-    font-family:old london alternate;
+  font-family:Old London Alternate;
     font-size: 30px;
     display:flex;
     justify-content: space-evenly;
@@ -36,7 +36,7 @@ ul{
     padding-left: 40px;
     padding-right: 40px;
     color: black;
-    font-family: old london alternate;
+    font-family:Old London Alternate;
     border-radius: 10px;
     background-color: #fff8e0;
     font-size: 20px;
@@ -52,7 +52,7 @@ ul{
   }
 
  .foot{
-    font-family:old london alternate;
+  font-family:Old London Alternate;
     font-size: 30px;
     display:flex;
     justify-content: space-evenly;
@@ -91,7 +91,7 @@ align-items: center;
    align-items: center;
     align-self: center;
     align-content: center;
-    font-family: Old London alternate;
+    font-family:Old London Alternate;
     margin:auto;
     padding: 30px;
 }
@@ -124,7 +124,7 @@ align-items: center;
     display:flex;
     justify-content: center;
     font-size: 60px;
-    font-family: Old london alternate; 
+    font-family:Old London Alternate;
     
 }
 
@@ -137,7 +137,7 @@ align-items: center;
     padding: 0 20px;
     font-size: 1rem;
     color: black;
-    font-family: old london alternate;
+    font-family:Old London Alternate;
     border-radius: 10px;
     background-color: #fff8e0;
     font-size: 25px;
@@ -259,7 +259,7 @@ align-items: center;
     margin: 0;
  }
  .foot{
-    font-family:old london alternate;
+    font-family:Old London Alternate;
     font-size: 30px;
     display:flex;
     justify-content: space-evenly;
@@ -284,6 +284,6 @@ align-items: center;
    color: black;
 }
 @font-face {
-  font-family: Old London Alternate;
+  font-family: 'Old London Alternate';
   src: url('https://www.fontsaddict.com/fontface/old-london-alternate.ttf');
 }
