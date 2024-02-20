@@ -91,12 +91,15 @@ align-items: center;
    align-items: center;
     align-self: center;
     align-content: center;
-    font-family:Old London Alternate;
     margin:auto;
     padding: 30px;
+    font-family:Old London Alternate;
+    color: black;
 }
 
- 
+.h1{
+  font-family:Old London Alternate;
+}
 
 .skillp{
     font-size: 20px;
