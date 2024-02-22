@@ -294,3 +294,6 @@ align-items: center;
   font-family: 'KG LET HER GO OUTLINE';
   src: url('https://www.fontsaddict.com/fontface/kg-let-her-go-outline.ttf');
 }
+.link{
+  text-decoration: none;
+ color: black;}
